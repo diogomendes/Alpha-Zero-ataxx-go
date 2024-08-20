@@ -88,9 +88,13 @@ For Go, we will have this; the board size is 9x9:
 All the models were trained with the following timesteps:
 
 Ataxx 4x4-> Timesteps: 9.7M 
+
 Ataxx 5x5-> Timesteps: 10M 
+
 Ataxx 6x6-> Timesteps: 9.5M 
+
 Go 7x7-> Timesteps: 1.1M 
+
 GO 9x9-> Timesteps: 3M 
 
 Then, they were tested against a player and a model that chose their actions randomly in 25 games. The results are:
@@ -98,18 +102,26 @@ Then, they were tested against a player and a model that chose their actions ran
 #### Against Human:
 
 Ataxx 4x4-> Vitórias: 20% 
+
 Ataxx 5x5-> Vitórias: 20% 
+
 Ataxx 6x6-> Vitórias: 20% 
+
 Go 7x7-> Vitórias: 50% 
+
 GO 9x9-> Vitórias: 70%
 
 
 #### Against Random model:
 
 Ataxx 4x4-> Vitórias: 45% 
+
 Ataxx 5x5-> Vitórias: 65% 
+
 Ataxx 6x6-> Vitórias: 50% 
+
 Go 7x7-> Vitórias: 60% 
+
 GO 9x9-> Vitórias: 100%
 
 
